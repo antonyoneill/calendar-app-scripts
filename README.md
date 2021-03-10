@@ -22,6 +22,8 @@ These scripts run every time a calendar event changes. Instead, you could go dow
 
 ## secondary-account-manager.gs
 
+*This is designed to run on your secondary account*
+
 I got really frustrated with managing two separate calendars, my primary and one client. A lot of my client colleagues use my client calendar, which doesn't show when I'm actually busy, but I also don't monitor the inbox either so I miss a lot of invites.
 
 I wrote a fairly hacky Google App Script for my secondary Google calendar to:
@@ -29,8 +31,11 @@ I wrote a fairly hacky Google App Script for my secondary Google calendar to:
 * Automatically accept events that I have created. I.e. "Lunch", "Blocked", etc - So the client can see when I'm busy when inviting me to meetings
 * Automatically invite my primary account if guests can invite others - so I can reply from my primary calendar.
 
+If you want to use this, make sure you update the `PRIMARY_EMAIL`
 
 ## colour-events.gs
+
+*This is designed to run on your primary account*
 
 My calendar often contains events from different contexts. I used to manually change the colours of these events as they came in so I could tell at a glance what the day looks like and what headspace I'm going to need to prepare for.
 
